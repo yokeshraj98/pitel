@@ -1,0 +1,46 @@
+body{
+      background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 800'%3E%3Cg %3E%3Ccircle fill='%23000000' cx='400' cy='400' r='600'/%3E%3Ccircle fill='%23180d1c' cx='400' cy='400' r='500'/%3E%3Ccircle fill='%23261431' cx='400' cy='400' r='400'/%3E%3Ccircle fill='%23351947' cx='400' cy='400' r='300'/%3E%3Ccircle fill='%23451e5e' cx='400' cy='400' r='200'/%3E%3Ccircle fill='%23552277' cx='400' cy='400' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+background-size: initial;
+transition-duration: 5s;
+background-size: cover;
+}
+body:hover{
+      transition-delay: 5s;
+      transition-duration: 5s;
+}
+ul {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    ul li {display: inline-block;}
+    ul li:hover {background: #ffffff;}
+    ul li:hover ul {display: block;}
+    ul li ul {
+      position: absolute;
+      width: 100px;
+      
+    }
+    .container{
+          background-image: cross-fade();
+          
+    }
+    .navbar navbar-expand-lg navbar-light bg-light{
+      background-color: #8CD0E3 !important;
+    }
+    .content{
+          color:rgb(213, 213, 218)
+    }
+    .second{
+          background-color: white;
+    }
+    .h2{
+          display: flex;
+          justify-content: center;
+          padding-top: 2em;
+    }
